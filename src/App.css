@@ -53,6 +53,10 @@
 
 .greninja_text {
   color: rgb(11, 140, 232);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  font-weight: 600;
+  
 }
 
 @keyframes App-logo-spin {

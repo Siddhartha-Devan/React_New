@@ -6,7 +6,7 @@ const Projects = () => {
             <p>Hi all... The below are my projects</p>
 
             <p className="greninja_text">
-                I've decided to put up a greninja's img in all th esites that I make...
+                I've decided to put up a greninja's img in all the sites that I make...
             </p>
         </div>
     )
