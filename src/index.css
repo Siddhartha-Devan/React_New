@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.center{
+  text-align: center;
+  color: white;
+}
+
+.pratheesh{
+  background-color: black;
+  padding: 25px;
+}
+
