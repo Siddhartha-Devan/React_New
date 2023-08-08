@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
     return(
         <div>
-            <nav>
+            <nav className="first_div">
                 <Link to = "/">
                     <button type = "button" className="buttons">Profile</button>
                 </Link>
