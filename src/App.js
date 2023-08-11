@@ -1,10 +1,10 @@
-import { useState } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import {  Routes, Route } from 'react-router-dom';
 import Layout from './Components/Layout.js';
 import Profile from './Components/Profile.js';
 import Resume from './Components/Resume.js';
 import Projects from './Components/Projects.js';
-import Contact from './Components/Contact.js'
+import Contact from './Components/Contact.js';
 import './App.css';
 import React from 'react';
 
@@ -81,7 +81,7 @@ function App() {
   );
 }
 
-{/* <Layout/> */}
+
 
 export default App;
 
