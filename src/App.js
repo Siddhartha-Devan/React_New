@@ -3,7 +3,7 @@ import {  Routes, Route } from 'react-router-dom';
 import Layout from './Components/Layout.js';
 import Profile from './Components/Profile.js';
 import Resume from './Components/Resume.js';
-import Projects from './Components/Projects.js';
+import ProjectsPage from './Components/Projects.js';
 import Contact from './Components/Contact.js';
 import './App.css';
 import React from 'react';
@@ -64,7 +64,7 @@ function App() {
               <Route path = "/" element = {<Layout/>}>
               <Route index element = {<Profile />} />
               <Route path = "Resume" element = {<Resume />} />
-              <Route path = "Projects" element = {<Projects />} />
+              <Route path = "Projects" element = {<ProjectsPage />} />
               <Route path = "Contact" element = {<Contact />} /> 
               </Route>
           </Routes>
