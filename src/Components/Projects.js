@@ -19,6 +19,9 @@ import StateManagement from "./Statemanagement"
 
 
 
+
+
+
 const ProjectsPage = () => {
     const projects = [
       {
@@ -44,20 +47,28 @@ const ProjectsPage = () => {
     ];
   
     return (
-      <div className="projects-page">
-        <h1>Projects</h1>
-        <div className="project-grid">
-          {projects.map((project, index) => (
-            <div className="project-card" key={index}>
-              <h2>{project.title}</h2>
-              <p>{project.description}</p>
-              <a href={project.link} target="_blank" rel="noopener noreferrer">
-                View on GitHub
-              </a>
+        <div>
+            <div className="projects-page">
+                <h1>Projects</h1>
+                    <div className="project-grid">
+            {         projects.map((project, index) => (
+                            <div className="project-card" key={index}>
+                                <h2>{project.title}</h2>
+                                <p>{project.description}</p>
+                                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                    View on GitHub
+                                </a>
+                            </div>
+                            ))}
+                    </div>
+                </div>
+
+            <div className="contact-value">
+                <a href="https://i.pinimg.com/originals/6e/90/05/6e90051e8c05edc65054b22e1caa7450.jpg"> secret img</a>
             </div>
-          ))}
         </div>
-      </div>
+
+      
     );
   };
   
