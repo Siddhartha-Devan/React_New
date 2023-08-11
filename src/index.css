@@ -17,6 +17,11 @@ code {
   color: white;
 }
 
+.centeronly{
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
 .pratheesh{
   background-color: black;
   padding: 25px;

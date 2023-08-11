@@ -2,14 +2,7 @@ import React from "react"
 
 
 class StateManagement extends React.Component {   
-    constructor() {
-    super()
-    this.state = {os: "Windows"}
-      }
-      mac = () =>{ this.setState({os: "MAC"})}
-      wind = () => {this.setState({os: "Windows"})}
-      lin = () => {this.setState({os: "LINUX"})}
-  
+    
       render(){
         return(
           <div>
@@ -31,11 +24,7 @@ class StateManagement extends React.Component {
                       So the only reason Im typing it is to make it look like a paragraph and <span class="abc"> Hello Again
                       </span>
                 </p>
-                
-                <h1>This is a {this.state.os} machine and it is a {this.props.laptop} laptop</h1>
-                <button type = "button" onClick={this.wind}>Windows</button> 
-                <button type = "button" onClick={this.lin}>LINUX</button>
-                <button type = "button" onClick={this.mac}>MAC</button>
+
             </div>
           </div>
           )
